@@ -61,10 +61,11 @@ p {
 }
 
 .section.is--hero {
-  height: 60vh;
+  height: 88vh;
   background-image: url('../images/BAnner.png');
   background-position: 0px 0px;
   background-size: cover;
+  align-items: flex-end;
 }
 
 .section.pt-0 {
@@ -94,6 +95,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-bottom: 40px;
 }
 
 .span__highlight {
@@ -771,8 +773,8 @@ p {
 }
 
 .footer-logo {
-  width: 170px;
-  margin-bottom: 10px;
+  width: 200px;
+  /* margin-bottom: 10px; */
 }
 
 .flex-h {
@@ -1372,10 +1374,11 @@ p {
 
   .is--white.is--phnmiddle {
     font-size: 2.4rem;
+    margin-bottom: 0;
   }
 
   .is--white.is--center.is-sm {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .para-text.is--white.mt-20.slider-text {

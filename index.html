@@ -81,10 +81,10 @@ opacity:1;
 .mobile-header.sticky{
   padding:0;
   }
-.navigation,
+/* .navigation,
   .mobile-header{
 transform: translateY(-100%);
-}
+} */
   
   
 .sticky{
@@ -99,7 +99,9 @@ transform: translateY(0%);
     .navigaitonbar{
       
       position:fixed;
+    
       z-index:100;
+      transition:0.5s;
     }
 </style>
 </head>
@@ -356,7 +358,7 @@ transform: rotate(-45deg);
     <div class="container">
       <div class="w-layout-grid footer-grid">
         <div class="footer-col"><img src="images/Logo3.png" loading="lazy" alt="" class="footer-logo">
-          <div class="section-title footer-text">An uncompromised food affair...</div>
+          <!-- <div class="section-title footer-text">An uncompromised food affair...</div> -->
         </div>
         <div class="footer-col">
           <div class="section-title footer-text is--coltitle">Quick Links</div>
@@ -440,24 +442,28 @@ $('.navigation-menudrawer').toggleClass('is-show');
 });
     
       
-  Scroll = 0;
-$(window).on('scroll',function() {    
-    var scroll = $(window).scrollTop();
-    if(Scroll - scroll > 0) {
-        $(".navigation, .mobile-header").addClass("sticky");
-    } else {
-        $(".navigation, .mobile-header").removeClass("sticky");
-    }
+//   Scroll = 0;
+// $(window).on('scroll',function() {    
+//     var scroll = $(window).scrollTop();
+//     if(Scroll - scroll > 0) {
+//         $(".navigation, .mobile-header").addClass("sticky");
+//     } else {
+//         $(".navigation, .mobile-header").removeClass("sticky");
+//     }
     
-    if (scroll == 0) {
-            $(".navigation, .mobile-header").removeClass("sticky");
-      $(".navigation, .mobile-header").addClass("sticky_top");
-    }else{
+//     if (scroll == 0) {
+//             $(".navigation, .mobile-header").removeClass("sticky");
+//       $(".navigation, .mobile-header").addClass("sticky_top");
+//     }else{
      
-      $(".navigation").removeClass("sticky_top");
-    }
-    Scroll = scroll;
-});
+//       $(".navigation").removeClass("sticky_top");
+//     }
+//     Scroll = scroll;
+    window.addEventListener('scroll', function () {
+            var header = document.querySelector('.navigation, .mobile-header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+// });
  
 </script>
 </body>
