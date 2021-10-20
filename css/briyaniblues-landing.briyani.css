@@ -1561,7 +1561,7 @@ p {
   }
 
   .is--white.is--phnmiddle {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 
   .is--white.is--center {
@@ -1570,6 +1570,8 @@ p {
 
   .is--white.is--center.is-sm {
     font-size: 0.9rem;
+    line-height:20px;
+    margin-bottom: 0;
   }
 
   .para-text {
