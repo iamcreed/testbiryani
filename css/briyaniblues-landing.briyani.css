@@ -1561,7 +1561,7 @@ p {
   }
 
   .is--white.is--phnmiddle {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .is--white.is--center {
@@ -1570,7 +1570,7 @@ p {
 
   .is--white.is--center.is-sm {
     font-size: 0.9rem;
-    line-height:20px;
+    line-height:25px;
     margin-bottom: 0;
   }
 
