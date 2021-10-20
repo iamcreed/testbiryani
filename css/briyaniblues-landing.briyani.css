@@ -23,7 +23,7 @@ h2 {
   color: #236ca7;
   font-size: 40px;
   line-height: 42px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h3 {
@@ -419,6 +419,7 @@ p {
 .proidcut-img {
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 .proidcut-img.is--inside {
   width: 100%;
@@ -628,10 +629,10 @@ p {
 }
 
 .navigiaton-link.is--footer {
-  padding-top: 10px;
+  padding-top: 0px;
   padding-bottom: 10px;
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .is--logowrap {
@@ -1448,8 +1449,8 @@ p {
   }
 
   .footer-col {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .footer-logo {
