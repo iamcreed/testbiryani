@@ -61,7 +61,7 @@ p {
 }
 
 .section.is--hero {
-  height: 80vh;
+  height: 500px;
   background-image: url('../images/BAnner.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -965,7 +965,7 @@ p {
   }
 
   .section.is--hero {
-    height: 80vh;
+    height: 500px;
   }
 
   .container {
@@ -1363,7 +1363,7 @@ p {
 
 @media screen and (max-width: 767px) {
   .section.is--hero {
-    height: 60vh;
+    height: 400px;
     padding-top: 22px;
     padding-bottom: 22px;
   }
@@ -1553,7 +1553,7 @@ p {
   }
 
   .section.is--hero {
-    height: 60vh;
+    height: 400px;
   }
 
   .button__large.is--coloryellow.outline-btn-orange.mobile {
@@ -1561,7 +1561,7 @@ p {
   }
 
   .is--white.is--phnmiddle {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .is--white.is--center {
@@ -1569,7 +1569,7 @@ p {
   }
 
   .is--white.is--center.is-sm {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height:25px;
     margin-bottom: 0;
   }
